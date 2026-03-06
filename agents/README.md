@@ -11,6 +11,7 @@ This directory contains instruction files that can be copied into other reposito
 | [ue5-blueprint.md](instructions/ue5-blueprint.md) | Blueprint-focused UE5 project | Root `AGENT.md` or `.cursorrules` |
 | [ue5-asset-pipeline.md](instructions/ue5-asset-pipeline.md) | Asset creation and import workflow | Root `AGENT.md` |
 | [blender-ue5.md](instructions/blender-ue5.md) | Blender work targeting UE5 | Root `AGENT.md` in Blender project |
+| [ue5-gas.md](instructions/ue5-gas.md) | Projects using the Gameplay Ability System | Root `AGENT.md` or `.cursorrules` |
 
 ## How to Use
 
