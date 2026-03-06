@@ -21,6 +21,7 @@ This repo serves two goals:
 | Modeling Mode | In-editor mesh modeling tools | [docs/tools/modeling-mode.md](docs/tools/modeling-mode.md) |
 | Unreal Game Sync (UGS) | P4/Git sync and build tool for teams | [docs/tools/unreal-game-sync.md](docs/tools/unreal-game-sync.md) |
 | Live Link | Real-time data streaming into UE5 | [docs/tools/live-link.md](docs/tools/live-link.md) |
+| Gameplay Ability System (GAS) | Ability, attribute, and effect framework | [docs/tools/gameplay-ability-system.md](docs/tools/gameplay-ability-system.md) |
 
 ### External DCC & Creative Tools
 

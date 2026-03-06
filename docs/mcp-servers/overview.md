@@ -10,6 +10,7 @@ Model Context Protocol (MCP) is an open standard that allows AI agents (Claude, 
 |------|------------|--------|-------|
 | Blender | blender-mcp | ✅ Available | Full 3D control |
 | Unreal Engine 5 | ue5-mcp / custom | 🔧 Community/Custom | Via Python scripting |
+| Gameplay Ability System (GAS) | ue5-gas-mcp (custom) | 🔧 Custom | Via UE5 Python + Remote Control API |
 | OBS Studio | obs-mcp (WebSocket) | ✅ Available | Via obs-websocket |
 | GIMP | None official | ❌ Not available | Use Script-Fu batch mode |
 | Krita | None official | ❌ Not available | Use Python batch scripts |
@@ -64,6 +65,22 @@ See [docs/mcp-servers/unreal-engine.md](unreal-engine.md) for full setup.
       "env": {
         "UE_PROJECT_PATH": "C:/MyProject/MyProject.uproject"
       }
+    }
+  }
+}
+```
+
+### Gameplay Ability System (GAS)
+
+See [docs/mcp-servers/gameplay-ability-system.md](gameplay-ability-system.md) for the full GAS MCP server with tools for querying attributes, activating abilities, and applying effects.
+
+**Quick start:**
+```json
+{
+  "mcpServers": {
+    "ue5-gas": {
+      "command": "python",
+      "args": ["/path/to/ue5_gas_mcp_server.py"]
     }
   }
 }
